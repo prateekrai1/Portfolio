@@ -236,30 +236,20 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-      date: "Oct 2021 - Sep 2025",
-      grade: "8.71 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ9cNk44PppD5gTwSN4biHkcdaH_l6_0BtOT2gpbqI8A&s",
+      school: "University of Michigan ",
+      date: "Aug 2023 - Apr 2025",
+      grade: "3.5 CGPA",
+      desc: "I am currently pursuing a Master's degree in Computer and Information Science at University of Michigan, Dearborn."
     },
     {
       id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2019 - Apr 2025",
-      grade: "88.2%",
-      desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-      degree: "ISC(XII), Science with Computer",
-    },
-    {
-      id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2017 - Apr 2019",
-      grade: "92.3%",
-      desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-      degree: "ICSC(X), Science with Computer",
+      img: "https://cuet-2023-public.s3.ap-south-1.amazonaws.com/site-admin23/ac61e5f2feb4b0f534b1bc4794cdc772cf1679dca69cc262d5c710ef24b321a83/Amity%20University%20Mumbai1677911309_upload_logo.jpg",
+      school: "Amity University, Dankuni",
+      date: "Aug 2017 - May 2021",
+      grade: "3.09",
+      desc: "I completed my Bachelor's of Engineering and Technology in Electronics & Communication Engineering.",
+      degree: "BTech. Electronics and Communication",
     },
   ];
   
