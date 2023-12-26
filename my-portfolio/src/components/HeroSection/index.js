@@ -3,6 +3,9 @@ import styled from "styled-components";
 import { Bio } from "../../data/Constant";
 import Typewriter from "typewriter-effect";
 import Prateekpicture from "../../images/Prateekpicture.jpg"
+import HeroBgAnimation from "../HeroBgAnimation";
+
+
 const HeroContainer = styled.div`
   background-color: ${({ theme }) => theme.card_light};
   display: flex;
@@ -31,7 +34,7 @@ const HeroBg = styled.div`
   bottom: 0;
   left: 50%;
   overflow: hidden;
-  width: 100%;
+  width: 85%;
   height: 100%;
   padding: 0 30px;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -44,7 +47,7 @@ const HeroBg = styled.div`
 `;
 
 const HeroInnerContainer = styled.div`
-  disply: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -212,7 +215,9 @@ const Hero = () => {
   return (
     <div id="about">
       <HeroContainer>
-        <HeroBg></HeroBg>
+        <HeroBg>
+          <HeroBgAnimation/>
+        </HeroBg>
         <HeroInnerContainer>
           <HeroLeftContainer>
             <Title>
