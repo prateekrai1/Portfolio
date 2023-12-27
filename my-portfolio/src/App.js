@@ -10,7 +10,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import Contact from './components/Contact';
 import ProjectDetails from './components/ProjectDetails'
 
 const Body = styled.div `
@@ -44,7 +43,6 @@ function App() {
           <Projects penModal={openModal} setOpenModal={setOpenModal} />
         <Wrapper>
           <Education/>
-          <Contact/>
         </Wrapper>
           <Footer/>
           {openModal.state &&
