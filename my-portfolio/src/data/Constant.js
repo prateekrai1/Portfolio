@@ -8,7 +8,7 @@ export const Bio = {
       ""
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "I am a passionate learner in the realm of computer science, specializing in Java and cloud development. Embracing challenges with a growth-oriented mindset, I actively engage in learning in public, sharing insights to contribute to the dynamic and collaborative landscape of software development.",
     github: "https://github.com/prateekrai1",
     resume:
       "https://drive.google.com/file/d/1K7q_O9CAslaGRjSXoSi9a8Qn9Mgyud4y/view?usp=sharing",
