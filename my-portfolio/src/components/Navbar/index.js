@@ -6,6 +6,11 @@ import { FaBars } from "react-icons/fa"
 import { Bio } from '../../data/Constant';
 
 
+function githubClick() {
+
+}
+
+
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.bg}
   height:80px;
@@ -188,7 +193,7 @@ const Navbar = () => {
           <NavLink href="#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GithubButton>Github Profle</GithubButton>
+          <GithubButton href={Bio.github} target="display">Github Profle</GithubButton>
         </ButtonContainer>
       </NavContainer>
       {open && <MobileMenu open={open}>
