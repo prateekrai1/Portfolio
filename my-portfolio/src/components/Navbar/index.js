@@ -193,7 +193,7 @@ const Navbar = () => {
           <NavLink href="#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GithubButton href={Bio.github} target="display">Github Profle</GithubButton>
+          {/* <GithubButton href={Bio.github} target="display">Github Profle</GithubButton> */}
         </ButtonContainer>
       </NavContainer>
       {open && <MobileMenu open={open}>
