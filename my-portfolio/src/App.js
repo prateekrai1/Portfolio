@@ -32,9 +32,9 @@ function App() {
   console.log(openModal)
   return (
     <ThemeProvider theme={darkTheme}>
-      <Router> 
+      <Router>
       <Body>
-      <Navbar/>
+        <Navbar/> 
         <Hero/>
         <Wrapper>
           <Skills/>

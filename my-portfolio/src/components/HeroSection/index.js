@@ -4,6 +4,7 @@ import { Bio } from "../../data/Constant";
 import Typewriter from "typewriter-effect";
 import Prateekpicture from "../../images/Prateekpicture.jpg"
 import HeroBgAnimation from "../HeroBgAnimation";
+import { GitHub} from '@mui/icons-material';
 
 
 const HeroContainer = styled.div`
@@ -115,7 +116,7 @@ const Title = styled.div `
 `;
 
 const TextLoop = styled.div `
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600px;
   color: ${({theme})=> theme.text_primary};
   line-height 68px;
@@ -236,9 +237,9 @@ const Hero = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="display">
+              {/* <ResumeButton href={Bio.resume} target="display">
               View Resume
-            </ResumeButton>
+            </ResumeButton> */}
           </HeroLeftContainer>
           <HeroRightContainer>
             <Image src={Prateekpicture} alt="hero"/>
