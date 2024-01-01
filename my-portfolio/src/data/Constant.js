@@ -219,6 +219,21 @@ export const Bio = {
       ],
       doc: "",
     },
+    {
+      id: 1,
+      img: "http://apnabeta.com/public/assets/images/logo.png",
+      role: "React JS Developer",
+      company: "Apna Beta",
+      date: "Jan 2021 - Feb 2022",
+      desc: "Experienced React JS Developer with a year-long tenure at Apna Beta, specializing in crafting dynamic and responsive user interfaces. Proficient in leveraging AWS S3 for efficient deployment, ensuring scalable and seamless hosting of web applications. Demonstrated skills in front-end development and expertise in utilizing cloud services for optimal performance. Committed to delivering high-quality, user-centric solutions in a collaborative team environment.",
+      skills: [
+        "React JS",
+        "Amazon S3",
+        "CSS",
+        "PHP"
+      ],
+      doc: "",
+    },
   ];
   
   export const education = [
