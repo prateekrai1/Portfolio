@@ -142,6 +142,12 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
           }
+          <Divider />
+          {toggle === 'Serverless Functions' ?
+            <ToggleButton active value="serverlessfunctions" onClick={() => setToggle('serverlessfunctions')}>SERVERLESS FUNCTIONS</ToggleButton>
+            :
+            <ToggleButton value="serverlessfunctions" onClick={() => setToggle('serverlessfunctions')}>SERVERLESS FUNCTIONS</ToggleButton>
+          }
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects

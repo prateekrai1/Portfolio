@@ -2,13 +2,13 @@
 export const Bio = {
     name: "Prateek Rai Srivastav",
     roles: [
+      "Software Developer",
       "Full Stack Developer",
       "Java Backend Developer",
-      "Programmer",
       "AWS Application Developer"
     ],
     description:
-      "I am a passionate learner in the realm of computer science, specializing in Java and cloud development. Embracing challenges with a growth-oriented mindset, I actively engage in learning in public, sharing insights to contribute to the dynamic and collaborative landscape of software development.",
+      "I am a passionate learner in the realm of computer science, specializing in Java and cloud development. I am an Open Source Contributor, I actively engage in learning in public, sharing insights to contribute to the dynamic and collaborative landscape of software development.",
     github: "https://github.com/prateekrai1",
     resume:
       "https://drive.google.com/file/d/1K7q_O9CAslaGRjSXoSi9a8Qn9Mgyud4y/view?usp=sharing",
@@ -23,11 +23,6 @@ export const Bio = {
           name: "React Js",
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-        },
-        {
-          name: "Next Js",
-          image:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
         },
         {
           name: "HTML",
@@ -163,6 +158,16 @@ export const Bio = {
       title: "Others",
       skills: [
         {
+          name: "Kubernetes",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/2109px-Kubernetes_logo_without_workmark.svg.png",
+        },
+        {
+          name: "Docker",
+          image:
+            "https://www.svgrepo.com/show/349342/docker.svg",
+        },
+        {
           name: "Git",
           image:
             "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
@@ -173,39 +178,43 @@ export const Bio = {
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         },
         {
-          name: "AWS",
+          name: "jenkins",
           image:
-            "https://pbs.twimg.com/profile_images/1641476962362302464/K8lb6OtN_400x400.jpg",
-        },
-        {
-          name: "VS Code",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-        },
-        {
-          name: "Postman",
-          image:
-          "https://www.svgrepo.com/show/354202/postman-icon.svg"
-        },
-        {
-          name: "IntellIj Idea",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1483px-Jenkins_logo.svg.png",
         },
       ],
     },
+    
   ];
   
   export const experiences = [
     {
-      id: 0,
+      id: 1,
+      img: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+      role: "Software Developer",
+      company: "Open Source",
+      date: "March 2023 - Present",
+      desc: "Began my journey in Java testing and documentation, swiftly transitioning to resolving bugs and actively contributing to feature development within open-source ecosystems. My evolution reflects a commitment to mastering various facets of software development while delivering tangible value to projects like OpenRefine and Jenkins.",
+      skills: [
+        "Java Development",
+        "Maven",
+        "Gradle",
+        "Testing",
+        "Documentation",
+        "Bug fixes",
+        "Features"
+      ],
+      doc: "",
+    },
+    {
+      id: 2,
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxS0R7EjZE3XmGMkWulOfOqa8wyzCAGGETNLLpxerECQ&s",
       role: "Java FullStack Developer",
       company: "ADP Pvt.Ltd",
       date: "Feb 2022 - Sept 2023",
       desc: "I have hands on experience in developing and maintaining microservices-based applications using Spring Boot collaborating with cross-functional teams for front-end-backend integration, and enhancing user interfaces with AngularJS. I specialize in designing optimized SQL queries and integrating third party libraries and APIs for efficient data handling. Familiarity with Agile methodologies, emphasizing adaptability and collaboration within project management. A team player who thrives in an open, respectful, and compassionate work environment, fostering a collaborative and supportive culture. Demonstrated programming aptitude, along with a capacity for logical and abstract thinking, leading to effective problem-solving.",
       skills: [
-        "Java",
+        "Java Web Development",
         "Spring Boot",
         "Angular JS",
         "SQL",
@@ -220,11 +229,11 @@ export const Bio = {
       doc: "",
     },
     {
-      id: 1,
+      id: 3,
       img: "http://apnabeta.com/public/assets/images/logo.png",
       role: "React JS Developer",
       company: "Apna Beta",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sep 2020 - Feb 2022",
       desc: "Experienced React JS Developer with a year-long tenure at Apna Beta, specializing in crafting dynamic and responsive user interfaces. Proficient in leveraging AWS S3 for efficient deployment, ensuring scalable and seamless hosting of web applications. Demonstrated skills in front-end development and expertise in utilizing cloud services for optimal performance. Committed to delivering high-quality, user-centric solutions in a collaborative team environment.",
       skills: [
         "React JS",
@@ -234,6 +243,23 @@ export const Bio = {
       ],
       doc: "",
     },
+    {
+      id: 4,
+      img: "",
+      role: "Freelance Developer and Tutor",
+      company: "Created and sold Web-Application templates across various industries, including e-commerce, fintech, edTech. My expertise in Frontend Development with ReactJS, Backend Development using Spring Framework and Spring Boot, and cloud hosting with AWS enabled me to deliver reusable code and read-efficient code for clients. Always, spread my learning in Universities, and tutored students in Data Structures and Algorithms.",
+      date: "Sep 2017 - Feb 2022",
+      desc: "",
+      skills: [
+        "Web Development",
+        "Data Structures and Algorithms",
+        "GitHub",
+        "React Js",
+        "AWS",
+        "Google Cloud"
+      ],
+      doc: "",
+    }
   ];
   
   export const education = [
@@ -298,6 +324,46 @@ export const Bio = {
           img: "https://avatars.githubusercontent.com/u/49387910?v=4",
           linkedin: "https://www.linkedin.com/in/prateek-rai-50001821a/",
           github: "https://github.com/ankitan07/Hack_dearborn_2",
+        },
+      ],
+    },
+    {
+      id: 1,
+      title: "Evaluating and Optimizing utilization of GPUs in Serverless Applications",
+      date: "April 2024",
+      description:
+      "This research project aims to investigate the utilization of a cloud-based GPU (Graphics Processing Units) within a serverless framework to assess the performance and scalability of GPU performance upon function invocations. GPU’s, typically known for their graphic rendering ability, have been in high demand due to their high data processing power. With artificial intelligence leading the way for the technological future, dependency on high computational power is a necessity. However, consumer GPU’s still have a high price tag and the development towards meeting market demands is progressing at a steady rate. This, in turn, limits general consumers from accessing high powered GPU’s for research and scholarly purposes. By utilizing the open source framework, OpenFaas, containers with holding serverless functions assessing GPU performance were deployed running on top of Docker and Kubernetes.",
+      image:
+        "https://api.civo.com/k3s-marketplace/openfaas.png",
+      tags: ["Ubuntu 22.04","OpenFaaS", "Docker","Kubernetes", "Python","CuPy", "NVIDIA CUDA"],
+      category: "serverlessfunctions",
+      github: "https://github.com/prateekrai1/Evaluating-utilization-of-GPUs-in-Serverless-Function",
+      member: [
+        {
+          name: "Prateek Rai Srivastav",
+          img: "https://avatars.githubusercontent.com/u/49387910?v=4",
+          linkedin: "https://www.linkedin.com/in/prateek-rai-50001821a/",
+          github: "ttps://github.com/prateekrai1/Evaluating-utilization-of-GPUs-in-Serverless-Function",
+        },
+      ],
+    },
+    {
+      id: 0,
+      title: "Evaluating serverless application memory efficiency and observing for opportunities for lazy evaluation",
+      date: "April 2024",
+      description:
+        "This project addresses the critical issue of memory efficiency in serverless applications by conducting a comprehensive evaluation and exploring opportunities for lazy evaluation. Through meticulous analysis of existing libraries, development of benchmarking metrics, and iterative code refactoring, we aim to optimize resource utilization, enhance performance, and reduce costs in serverless computing environments. Our evaluation encompasses Python-based applications. By leveraging tools like memory_profiler and Scalene, we gather detailed memory usage data and identify key areas for optimization. Our optimization efforts include code refactoring. Despite challenges, our progress signifies a significant step towards improving resource utilization and performance in serverless computing environments.",
+      image:
+        "https://banner2.cleanpng.com/20190623/yp/kisspng-python-computer-icons-programming-language-executa-5d0f0aa79779a6.6143656815612668556205.jpg",
+      tags: ["Ubuntu 22.04", "Memory Profiler", "Scalene", "Python"],
+      category: "serverlessfunctions",
+      github: "",
+      member: [
+        {
+          name: "Prateek Rai Srivastav",
+          img: "https://avatars.githubusercontent.com/u/49387910?v=4",
+          linkedin: "https://www.linkedin.com/in/prateek-rai-50001821a/",
+          github: "",
         },
       ],
     },
