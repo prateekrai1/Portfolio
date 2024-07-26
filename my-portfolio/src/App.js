@@ -33,8 +33,8 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <Router>
+      <Navbar/> 
       <Body>
-        <Navbar/> 
         <Hero/>
         <Wrapper>
           <Skills/>

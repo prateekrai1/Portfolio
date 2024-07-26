@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import Prateekpicture from "../../images/Prateekpicture.jpg"
 import HeroBgAnimation from "../HeroBgAnimation";
 import { GitHub} from '@mui/icons-material';
+import Resume from "../ResumeButton/Resume";
 
 
 const HeroContainer = styled.div`
@@ -237,9 +238,7 @@ const Hero = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-              {/* <ResumeButton href={Bio.resume} target="display">
-              View Resume
-            </ResumeButton> */}
+          <Resume/>
           </HeroLeftContainer>
           <HeroRightContainer>
             <Image src={Prateekpicture} alt="hero"/>

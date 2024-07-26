@@ -10,9 +10,8 @@ function githubClick() {
 
 }
 
-
 const Nav = styled.div`
-  background-color: ${({ theme }) => theme.bg}
+  background-color: rgb(25, 25, 36) }
   height:80px;
   display:flex;
   justify-content:center;

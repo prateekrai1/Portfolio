@@ -190,11 +190,11 @@ export const Bio = {
   export const experiences = [
     {
       id: 1,
-      img: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
-      role: "Software Developer",
-      company: "Open Source",
-      date: "March 2023 - Present",
-      desc: "Began my journey in Java testing and documentation, swiftly transitioning to resolving bugs and actively contributing to feature development within open-source ecosystems. My evolution reflects a commitment to mastering various facets of software development while delivering tangible value to projects like OpenRefine and Jenkins.",
+      img: "https://framerusercontent.com/images/fP9Evsnp42PXLTXr2lEJDVDs34Y.png?scale-down-to=512",
+      role: "SWE Fellow at Headstarter",
+      company: "Headstarter",
+      date: "July 2024 - Present",
+      desc: "Actively contributed to OpenSource, swiftly transitioning from to resolving bugs and actively contributing to feature development within open-source ecosystems. My evolution reflects a commitment to mastering various facets of software development while delivering tangible value to projects like OpenRefine and Jenkins.",
       skills: [
         "Java Development",
         "Maven",
@@ -243,23 +243,6 @@ export const Bio = {
       ],
       doc: "",
     },
-    {
-      id: 4,
-      img: "",
-      role: "Freelance Developer and Tutor",
-      company: "Created and sold Web-Application templates across various industries, including e-commerce, fintech, edTech. My expertise in Frontend Development with ReactJS, Backend Development using Spring Framework and Spring Boot, and cloud hosting with AWS enabled me to deliver reusable code and read-efficient code for clients. Always, spread my learning in Universities, and tutored students in Data Structures and Algorithms.",
-      date: "Sep 2017 - Feb 2022",
-      desc: "",
-      skills: [
-        "Web Development",
-        "Data Structures and Algorithms",
-        "GitHub",
-        "React Js",
-        "AWS",
-        "Google Cloud"
-      ],
-      doc: "",
-    }
   ];
   
   export const education = [
@@ -400,6 +383,26 @@ export const Bio = {
       date: "Nov 2022",
       description:
         "As the sole contributor, I undertook a comprehensive data migration project, aiming to seamlessly transfer data from one set of tables to another within the existing database infrastructure. The project was meticulously planned and executed to ensure a smooth transition, preserving data integrity and minimizing disruptions to ongoing operations. My responsibilities included the detailed planning of the data migration process, considering the intricacies of the database structure and the specific requirements of the new table design. I leveraged best practices in data migration, ensuring the accurate transfer of datasets while maintaining data relationships and managing complex data types. Furthermore, I personally conducted extensive validation and verification procedures, meticulously testing and rectifying inconsistencies or discrepancies that emerged during the migration process. This hands-on approach allowed for a thorough quality check and ensured the accuracy and completeness of the migrated data. Ultimately, my individual efforts resulted in an enhanced database infrastructure, facilitating improved data accessibility, streamlined query performance, and overall system efficiency. My meticulous planning and execution led to a seamless transition with minimal downtime, ensuring uninterrupted data flow within the system.",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxS0R7EjZE3XmGMkWulOfOqa8wyzCAGGETNLLpxerECQ&s",
+      tags: ["Spring Boot Java", "RESTful API", "Oracle SQL", "Postman"],
+      category: "projectsatadp",
+    },
+    {
+      id: 7,
+      title: "National Medical Documents Processing",
+      date: "April 2023",
+      description:
+        "Implemented Straight Through Processing (STP) of Medical Documents at the backend level using Spring Boot. $2.1M to $4.7M revenue opportunity project. Achieved 100% satisfactory in Pendo Survey.",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxS0R7EjZE3XmGMkWulOfOqa8wyzCAGGETNLLpxerECQ&s",
+      tags: ["Spring Boot Java", "RESTful API", "PDF Xchange editor","Oracle SQL", "Postman"],
+      category: "projectsatadp",
+    },
+    {
+      id: 7,
+      title: "Simplified Onboarding",
+      date: "Nov 2022",
+      description:
+        "Designed services according to Microservices architecture and developed backend services using Spring Boot and user friendly interfaces using Angular. Improved the onboarding process time to less than 2 weeks with a 150% increase in productivity.",
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxS0R7EjZE3XmGMkWulOfOqa8wyzCAGGETNLLpxerECQ&s",
       tags: ["Spring Boot Java", "RESTful API", "Oracle SQL", "Postman"],
       category: "projectsatadp",
