@@ -238,7 +238,7 @@ const Hero = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-          <Resume/>
+          {/* <Resume/> */}
           </HeroLeftContainer>
           <HeroRightContainer>
             <Image src={Prateekpicture} alt="hero"/>
